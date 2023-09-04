@@ -1,0 +1,52 @@
+<Modal @ref="modalRef" ShowCloseButton=true UseStaticBackdrop=true>
+    <HeaderTemplate>
+        <span>@Titulo</span>
+    </HeaderTemplate>
+    <BodyTemplate>
+        <EditForm Model="@Tarefa" OnValidSubmit="Submit" id="form1">
+            <DataAnnotationsValidator/>
+            
+            <label for="nome">Nome</label>
+            <InputText id="nome" class="form-control" @bind-Value="Tarefa.Nome"/>
+            <ValidationMessage For="@( ()=> Tarefa.Nome)"/>
+
+            <label for="descricao">Descrição</label>
+            <InputTextArea id="descricao" class="form-control" @bind-Value="Tarefa.Descricao"/>
+            <ValidationMessage For="@( ()=> Tarefa.Descricao)"/>
+
+            <label for="dataInicio">Data de início</label>
+            <InputDate id="dataInicio" class="form-control" @bind-Value="Tarefa.DataInicio"/>
+            <ValidationMessage For="@( ()=> Tarefa.DataInicio)"/>
+        </EditForm>
+
+    </BodyTemplate>
+    <FooterTemplate>
+        <button type="button" class="btn btn-primary" @onclick="FecharDialogo">Cancelar</button>
+        <button type="submit" class="btn btn-primary" form="form1">Confirmar</button>
+    </FooterTemplate>
+</Modal>
+
+@code {
+    [Parameter]
+    public string? Titulo { get; set; }
+
+    [Parameter]
+    public Tarefa Tarefa { get; set; }
+
+    private Modal modalRef;
+
+    private async Task Submit()
+    {
+        await modalRef.HideAsync();
+    }
+
+    private async Task FecharDialogo()
+    {
+        await modalRef.HideAsync();
+    }
+
+    public async Task AbrirDialogo()
+    {
+        await modalRef.ShowAsync();
+    }
+}
