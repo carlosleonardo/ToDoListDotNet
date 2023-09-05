@@ -1,5 +1,5 @@
 @page "/tarefas"
-@* @inject ServicoToDo servicoToDo *@
+@inject ServicoToDo servicoToDo
 
 <PageTitle>Tarefas</PageTitle>
 
@@ -12,8 +12,8 @@
 
 
 <div class="container-fluid">
-    <div class="card p-3">
-        <table class="table table-striped" >
+    <div class="card p-3 table">
+        <table>
             <tr>
                 <th>Id da tarefa</th>
                 <th>Nome</th>
@@ -21,6 +21,7 @@
                 <th>Finalizada</th>
                 <th>Data início</th>
                 <th>Data Término</th>
+                <th>&nbsp;</th>
             </tr>
             
             @if(tarefas is null || tarefas.Count()==0) {
@@ -28,29 +29,28 @@
             } else {
                 foreach(var tarefa in tarefas)
                 {
-                    <td >@tarefa.Id</td>
-                    <td >@tarefa.Nome </td>
-                    <td >@tarefa.Descricao </td>
-                    <td >@(tarefa.Finalizada ? "Sim": "Não") </td>
-                    <td>@tarefa.DataInicio </td>
-                    <td>@tarefa.DataTermino</td>
-                    <td>
-                        <button class="btn btn-close" disabled="@tarefa.Finalizada" ></button>
-                        <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Alterar</button>
-                        <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Finalizar</button>
-                    </td>
+                    <tr>
+                        <td >@tarefa.Id</td>
+                        <td >@tarefa.Nome </td>
+                        <td >@tarefa.Descricao </td>
+                        <td >@(tarefa.Finalizada ? "Sim": "Não") </td>
+                        <td>@tarefa.DataInicio </td>
+                        <td>@tarefa.DataTermino</td>
+                        <td>
+                            <button class="btn btn-close" disabled="@tarefa.Finalizada" ></button>
+                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Alterar</button>
+                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Finalizar</button>
+                        </td>
+                    </tr>
 
                 }
             }
-            @* <tr *ngFor="let tarefa of tarefas" >
-                
-            </tr> *@
         </table>
     </div>
 </div>
 
 @code {
-    private ManterTarefa meuModal;
+    private ManterTarefa meuModal = default!;
 
     private IList<Tarefa> tarefas = new List<Tarefa>();
 
@@ -64,7 +64,7 @@
 
     public async Task ObterTarefas()
     {
-        //tarefas = await servicoToDo.ObterTarefas();
+        tarefas = await servicoToDo.ObterTarefas();
     }
 
     private async Task AbrirDialogo()
