@@ -9,7 +9,7 @@
 -DCORE_BINDINGS
 -DGEN_PINVOKE=1
 -emit-llvm
-"-I/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/wasm/for-build"
-"-I/home/s861321135/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.10/runtimes/browser-wasm/native/include/mono-2.0"
-"-I/home/s861321135/.dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/7.0.10/runtimes/browser-wasm/native/include/wasm"
+"-IC:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\obj\Debug\net7.0\wasm\for-build"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\7.0.10\runtimes\browser-wasm\native\include\mono-2.0"
+"-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\7.0.10\runtimes\browser-wasm\native\include\wasm"
 -g
