@@ -1,4 +1,4 @@
-static class SeedData
+public static class SeedData
 {
     public static async Task InicializarBD(ToDoListContext BD)
     {

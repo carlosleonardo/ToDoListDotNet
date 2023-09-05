@@ -210,13 +210,13 @@
       "mscorlib.dll": "sha256-Xo3wdLenBZ41X73hGjkWTbEQZDKcQsnPFtlkePUxLY0=",
       "netstandard.dll": "sha256-qjqaAEP3hdLnU\/TnoCd8HaSa+0ruV1TpdaB2GUujGMw=",
       "System.Private.CoreLib.dll": "sha256-\/7uQ+eNo9u3H1mpgMko4D3tKZHeGRfsRjna0Dqsu62k=",
-      "ToDoListDotNet.dll": "sha256-hJFGQLiGx6z4XOziS\/IlJ7GPQVPyHbx7uoR9RZeuyP4="
+      "ToDoListDotNet.dll": "sha256-ijTFUYdavfCVHV0sjEbKB4up8o00NG+XoiilX8lpQwo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ToDoListDotNet.pdb": "sha256-M4MHurKndRMOdf8A25ulcJpGqp9vYfRdcMhT7njOaao="
+      "ToDoListDotNet.pdb": "sha256-r3V9KUzggmowBMpdGdG\/r9AZFZNduj4viA\/H55Qu2TQ="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-pf9chcB37Cf13KuuvScsozomnAUanMeCfvDr9Wqofh8=",
@@ -224,13 +224,13 @@
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
       "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37\/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs=",
-      "dotnet.wasm": "sha256-7APL5IPj7mKtHLXBnK9PI3XvvRSMiui4ecnH5JvpLtw=",
-      "dotnet.7.0.10.glekq0rr35.js": "sha256-ZPoFLA2jOttXi5dJte8vPva618rnmR24y3cVRIpCUaU="
+      "dotnet.wasm": "sha256-PXoI8JGa9c4215RClTJ9hp913+VA2HIxZhwAFe\/nGCM=",
+      "dotnet.7.0.10.bcy5tjbscf.js": "sha256-Esn80fKTGYag0HP1mYrs6Kef8P\/eJ08YbUE\/EBJAVvQ="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
         "behavior": "dotnetwasm",
-        "hash": "sha256-7APL5IPj7mKtHLXBnK9PI3XvvRSMiui4ecnH5JvpLtw="
+        "hash": "sha256-PXoI8JGa9c4215RClTJ9hp913+VA2HIxZhwAFe\/nGCM="
       }
     },
     "satelliteResources": null
