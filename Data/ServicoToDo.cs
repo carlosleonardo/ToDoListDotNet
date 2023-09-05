@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 public class ServicoToDo
 {
     private ToDoListContext toDoListContext;
@@ -10,5 +12,10 @@ public class ServicoToDo
     {
         toDoListContext.Tarefas?.Add(tarefa);
         await toDoListContext.SaveChangesAsync();
+    }
+
+    public async Task<IList<Tarefa>> ObterTarefas()
+    {
+        return await toDoListContext.Tarefas!.ToListAsync<Tarefa>();
     }
 }
