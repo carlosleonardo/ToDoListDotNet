@@ -1,5 +1,5 @@
 @page "/tarefas"
-
+@* @inject ServicoToDo servicoToDo *@
 
 <PageTitle>Tarefas</PageTitle>
 
@@ -56,9 +56,15 @@
 
     public Tarefa? Tarefa { get; set; }
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
         Tarefa = new() { DataInicio = DateTime.Now };
+        await ObterTarefas();
+    }
+
+    public async Task ObterTarefas()
+    {
+        //tarefas = await servicoToDo.ObterTarefas();
     }
 
     private async Task AbrirDialogo()
