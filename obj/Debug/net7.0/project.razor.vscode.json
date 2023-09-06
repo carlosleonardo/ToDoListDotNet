@@ -199,7 +199,7 @@
         }
       },
       {
-        "HashCode": 162085072,
+        "HashCode": -100385819,
         "Kind": "Components.Component",
         "Name": "ToDoListDotNet.Pages.ManterTarefa",
         "AssemblyName": "ToDoListDotNet",
@@ -230,6 +230,17 @@
               "Common.PropertyName": "Tarefa",
               "Common.GloballyQualifiedTypeName": "global::Tarefa"
             }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AoConfirmarTarefa",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Tarefa>",
+            "DisplayName": "Microsoft.AspNetCore.Components.EventCallback<Tarefa> ToDoListDotNet.Pages.ManterTarefa.AoConfirmarTarefa",
+            "Metadata": {
+              "Common.PropertyName": "AoConfirmarTarefa",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Tarefa>",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
@@ -240,7 +251,7 @@
         }
       },
       {
-        "HashCode": -772962671,
+        "HashCode": 591109275,
         "Kind": "Components.Component",
         "Name": "ToDoListDotNet.Pages.ManterTarefa",
         "AssemblyName": "ToDoListDotNet",
@@ -270,6 +281,17 @@
             "Metadata": {
               "Common.PropertyName": "Tarefa",
               "Common.GloballyQualifiedTypeName": "global::Tarefa"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AoConfirmarTarefa",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Tarefa>",
+            "DisplayName": "Microsoft.AspNetCore.Components.EventCallback<Tarefa> ToDoListDotNet.Pages.ManterTarefa.AoConfirmarTarefa",
+            "Metadata": {
+              "Common.PropertyName": "AoConfirmarTarefa",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::Tarefa>",
+              "Components.EventCallback": "True"
             }
           }
         ],
