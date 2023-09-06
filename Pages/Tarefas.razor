@@ -1,5 +1,6 @@
 @page "/tarefas"
 @inject ServicoToDo servicoToDo
+@inject IJSRuntime runtimeJS
 
 <PageTitle>Tarefas</PageTitle>
 
@@ -37,7 +38,7 @@
                         <td>@tarefa.DataInicio </td>
                         <td>@tarefa.DataTermino</td>
                         <td>
-                            <button class="btn btn-close" disabled="@tarefa.Finalizada" ></button>
+                            <button class="btn btn-close" @onclick="@(async ()=> await ExcluirTarefa(tarefa.Id))" disabled="@tarefa.Finalizada" ></button>
                             <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Alterar</button>
                             <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Finalizar</button>
                         </td>
@@ -65,6 +66,19 @@
     public async Task ObterTarefas()
     {
         tarefas = await servicoToDo.ObterTarefas();
+    }
+
+    public async Task ExcluirTarefa(int id)
+    {
+        if ( !await runtimeJS.InvokeAsync<bool>("confirm", "Tem certeza de que quer excluir?"))
+        {
+            return;
+        }
+        var tarefa = await servicoToDo.ObterTarefa(id);
+        if(tarefa is not null) {
+            await servicoToDo.ExcluirTarefa(tarefa);
+            await ObterTarefas();
+        }
     }
 
     private async Task Confirmando(Tarefa tarefa)

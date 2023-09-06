@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using ToDoListDotNet;
 using BlazorBootstrap;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.JSInterop;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
@@ -13,6 +14,7 @@ builder.Services.AddBlazorBootstrap();
 builder.Services.AddDbContextFactory<ToDoListContext>(options => {
     options.UseSqlite("Data Source=todo.db");
 });
+
 builder.Services.AddScoped<ServicoToDo>();
 
 var app = builder.Build();
