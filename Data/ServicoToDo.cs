@@ -14,6 +14,17 @@ public class ServicoToDo
         await toDoListContext.SaveChangesAsync();
     }
 
+    public async Task<Tarefa?> ObterTarefa(int id)
+    {
+        return await toDoListContext.Tarefas!.FindAsync(id);
+    }
+
+    public async Task ExcluirTarefa(Tarefa tarefa)
+    {
+        toDoListContext.Tarefas?.Remove(tarefa);
+        await toDoListContext.SaveChangesAsync();
+    }
+
     public async Task<IList<Tarefa>> ObterTarefas()
     {
         return await toDoListContext.Tarefas!.ToListAsync<Tarefa>();

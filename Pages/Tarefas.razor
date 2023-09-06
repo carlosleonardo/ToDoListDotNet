@@ -1,9 +1,10 @@
 @page "/tarefas"
 @inject ServicoToDo servicoToDo
+@inject IJSRuntime runtimeJS
 
 <PageTitle>Tarefas</PageTitle>
 
-<ManterTarefa @ref="meuModal" Titulo="Adicionar Tarefa" Tarefa="Tarefa"/>
+<ManterTarefa @ref="meuModal" Titulo="Adicionar Tarefa" Tarefa="Tarefa" AoConfirmar="Confirmando"/>
 
 <div class="container-fluid p-3">
     <h1>Tarefas</h1>
@@ -37,7 +38,7 @@
                         <td>@tarefa.DataInicio </td>
                         <td>@tarefa.DataTermino</td>
                         <td>
-                            <button class="btn btn-close" disabled="@tarefa.Finalizada" ></button>
+                            <button class="btn btn-close" disabled="@tarefa.Finalizada" @onclick="@( async () => await ExcluirTarefa(tarefa.Id))" ></button>
                             <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Alterar</button>
                             <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Finalizar</button>
                         </td>
@@ -72,9 +73,24 @@
         Tarefa = new() { DataInicio = DateTime.Now, Nome = string.Empty };
         meuModal.Tarefa = Tarefa;
         await meuModal.AbrirDialogo();    
-        if( meuModal.Confirmado) { 
-            await servicoToDo.AdicionarTarefa(Tarefa);
+        
+    }
+
+    private async Task Confirmando(Tarefa tarefa)
+    {
+        await servicoToDo.AdicionarTarefa(tarefa);
+        await ObterTarefas();
+    }    
+
+    private async Task ExcluirTarefa(int id)
+    {
+        if( ! await runtimeJS.InvokeAsync<bool>("confirm", "Tem certeza de que quer excluir esta tarefa?"))
+            return;
+        var tarefa = await servicoToDo.ObterTarefa(id);
+        if ( tarefa is not null)
+        {
+            await servicoToDo.ExcluirTarefa(tarefa);
             await ObterTarefas();
         }
-    }   
+    }
 }
