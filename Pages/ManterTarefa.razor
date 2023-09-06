@@ -34,22 +34,19 @@
     [Parameter]
     public Tarefa Tarefa { get; set; }
 
+    [Parameter] public EventCallback<Tarefa> AoConfirmarTarefa { get; set; }
+
     private Modal modalRef = default!;
-
-    public bool Confirmado { get { return confirmado; } }
-
-    private bool confirmado = false;
 
     private async Task Submit()
     {
+        await AoConfirmarTarefa.InvokeAsync(Tarefa);
         await modalRef.HideAsync();
-        confirmado = true;
-    }
+     }
 
     private async Task FecharDialogo()
     {
         await modalRef.HideAsync();
-        confirmado = false;
     }
 
     public async Task AbrirDialogo()

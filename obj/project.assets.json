@@ -2709,32 +2709,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/s861321135/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\ToDoListDotNet.csproj",
+      "projectUniqueName": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/ToDoListDotNet.csproj",
       "projectName": "ToDoListDotNet",
-      "projectPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\ToDoListDotNet.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\obj\\",
+      "projectPath": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/ToDoListDotNet.csproj",
+      "packagesPath": "/home/s861321135/.nuget/packages/",
+      "outputPath": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/s861321135/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\carlo\\OneDrive\\Documentos\\NuGetPackages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2787,7 +2779,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/s861321135/.dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

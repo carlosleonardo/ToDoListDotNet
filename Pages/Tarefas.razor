@@ -3,7 +3,7 @@
 
 <PageTitle>Tarefas</PageTitle>
 
-<ManterTarefa @ref="meuModal" Titulo="Adicionar Tarefa" Tarefa="Tarefa"/>
+<ManterTarefa @ref="meuModal" Titulo="Adicionar Tarefa" AoConfirmarTarefa="Confirmando"/>
 
 <div class="container-fluid p-3">
     <h1>Tarefas</h1>
@@ -12,7 +12,7 @@
 
 
 <div class="container-fluid">
-    <div class="card p-3 table">
+    <div class="card p-3 table table-striped">
         <table>
             <tr>
                 <th>Id da tarefa</th>
@@ -67,14 +67,16 @@
         tarefas = await servicoToDo.ObterTarefas();
     }
 
+    private async Task Confirmando(Tarefa tarefa)
+    {
+        await servicoToDo.AdicionarTarefa(tarefa);
+        await ObterTarefas();
+    }
+
     private async Task AbrirDialogo()
     {
         Tarefa = new() { DataInicio = DateTime.Now, Nome = string.Empty };
         meuModal.Tarefa = Tarefa;
         await meuModal.AbrirDialogo();    
-        if( meuModal.Confirmado) { 
-            await servicoToDo.AdicionarTarefa(Tarefa);
-            await ObterTarefas();
-        }
     }   
 }

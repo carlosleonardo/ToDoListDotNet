@@ -1,39 +1,39 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+      "Id": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\obj\\Debug\\net7.0\\build-gz\\CYT7usGC.gz",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+      "Id": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/build-gz/hguy1B6a.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\obj\\Debug\\net7.0\\scopedcss\\bundle\\ToDoListDotNet.styles.css",
-      "PackagePath": "staticwebassets\\ToDoListDotNet.styles.css"
+      "Id": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/scopedcss/bundle/ToDoListDotNet.styles.css",
+      "PackagePath": "staticwebassets/ToDoListDotNet.styles.css"
     },
     {
-      "Id": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\wwwroot\\css\\app.css",
-      "PackagePath": "staticwebassets\\css\\app.css"
+      "Id": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
     },
     {
-      "Id": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
+      "Id": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ToDoListDotNet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ToDoListDotNet.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ToDoListDotNet.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ToDoListDotNet.props",
       "PackagePath": "build\\ToDoListDotNet.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ToDoListDotNet.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ToDoListDotNet.props",
       "PackagePath": "buildMultiTargeting\\ToDoListDotNet.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ToDoListDotNet.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ToDoListDotNet.props",
       "PackagePath": "buildTransitive\\ToDoListDotNet.props"
     }
   ],
