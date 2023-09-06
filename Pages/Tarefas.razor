@@ -58,7 +58,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        Tarefa = new() { DataInicio = DateTime.Now };
+        
         await ObterTarefas();
     }
 
@@ -69,7 +69,12 @@
 
     private async Task AbrirDialogo()
     {
-        meuModal.Titulo = "Adicionar Tarefa";
+        Tarefa = new() { DataInicio = DateTime.Now, Nome = string.Empty };
+        meuModal.Tarefa = Tarefa;
         await meuModal.AbrirDialogo();    
+        if( meuModal.Confirmado) { 
+            await servicoToDo.AdicionarTarefa(Tarefa);
+            await ObterTarefas();
+        }
     }   
 }

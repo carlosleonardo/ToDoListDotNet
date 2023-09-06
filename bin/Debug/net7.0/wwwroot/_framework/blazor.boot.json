@@ -210,13 +210,13 @@
       "mscorlib.dll": "sha256-Xo3wdLenBZ41X73hGjkWTbEQZDKcQsnPFtlkePUxLY0=",
       "netstandard.dll": "sha256-qjqaAEP3hdLnU\/TnoCd8HaSa+0ruV1TpdaB2GUujGMw=",
       "System.Private.CoreLib.dll": "sha256-\/7uQ+eNo9u3H1mpgMko4D3tKZHeGRfsRjna0Dqsu62k=",
-      "ToDoListDotNet.dll": "sha256-nSjd2vMxg7XRazimsagyAeLG6pH+\/rROmrI2FFDDRH8="
+      "ToDoListDotNet.dll": "sha256-YbRtEWUeG0zHE9bLAPVMLuST39uoI\/tOt6CvvbEM+sk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ToDoListDotNet.pdb": "sha256-DmwEPpPUFcxPn1c1Hm\/SKi8jAbRWavHUnEwLjN1psDk="
+      "ToDoListDotNet.pdb": "sha256-uJshX0X1AW40uz3qHq6vYYyUvsbF6EOaKtgmrPFKp1U="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-pf9chcB37Cf13KuuvScsozomnAUanMeCfvDr9Wqofh8=",
