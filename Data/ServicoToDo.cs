@@ -16,7 +16,7 @@ public class ServicoToDo
 
     public async Task AlterarTarefa(Tarefa tarefa)
     {
-        toDoListContext.Update(tarefa);
+        toDoListContext.Tarefas?.Update(tarefa);
         await toDoListContext.SaveChangesAsync();
     }
 
