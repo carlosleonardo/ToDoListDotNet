@@ -14,6 +14,12 @@ public class ServicoToDo
         await toDoListContext.SaveChangesAsync();
     }
 
+    public async Task AlterarTarefa(Tarefa tarefa)
+    {
+        toDoListContext.Update(tarefa);
+        await toDoListContext.SaveChangesAsync();
+    }
+
     public async Task<Tarefa?> ObterTarefa(int id)
     {
         return await toDoListContext.Tarefas!.FindAsync(id);
