@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ToDoListDotNet
 build_property.RootNamespace = ToDoListDotNet
-build_property.ProjectDir = C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\
+build_property.ProjectDir = /home/s861321135/Documentos/dotnet/ToDoListDotNet/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet
+build_property.MSBuildProjectDirectory = /home/s861321135/Documentos/dotnet/ToDoListDotNet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/App.razor]
+[/home/s861321135/Documentos/dotnet/ToDoListDotNet/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/MainLayout.razor]
+[/home/s861321135/Documentos/dotnet/ToDoListDotNet/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/home/s861321135/Documentos/dotnet/ToDoListDotNet/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/Pages/ManterTarefa.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudGVyVGFyZWZhLnJhem9y
+[/home/s861321135/Documentos/dotnet/ToDoListDotNet/Pages/ManterTarefa.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFudGVyVGFyZWZhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/Pages/Tarefas.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFyZWZhcy5yYXpvcg==
+[/home/s861321135/Documentos/dotnet/ToDoListDotNet/Pages/Tarefas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFyZWZhcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/_Imports.razor]
+[/home/s861321135/Documentos/dotnet/ToDoListDotNet/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

@@ -4,7 +4,8 @@
 
 <PageTitle>Tarefas</PageTitle>
 
-<ManterTarefa @ref="meuModal" Titulo="Adicionar Tarefa" Tarefa="Tarefa" AoConfirmar="Confirmando"/>
+<ManterTarefa @ref="meuModal" Titulo="@Titulo" Tarefa="@Tarefa" AoConfirmar="Confirmando"
+    Editando="@Editando"/>
 
 <div class="container-fluid p-3">
     <h1>Tarefas</h1>
@@ -39,7 +40,7 @@
                         <td>@tarefa.DataTermino</td>
                         <td>
                             <button class="btn btn-close" disabled="@tarefa.Finalizada" @onclick="@( async () => await ExcluirTarefa(tarefa.Id))" ></button>
-                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Alterar</button>
+                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" @onclick="@( async() => await AlterarTarefa(tarefa.Id))">Alterar</button>
                             <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Finalizar</button>
                         </td>
                     </tr>
@@ -57,6 +58,10 @@
 
     public Tarefa? Tarefa { get; set; }
 
+    public string? Titulo { get; set; }
+
+    public bool Editando { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
         
@@ -71,14 +76,30 @@
     private async Task AbrirDialogo()
     {
         Tarefa = new() { DataInicio = DateTime.Now, Nome = string.Empty };
-        meuModal.Tarefa = Tarefa;
+        Titulo = "Adicionar Tarefa";
+        Editando = false;
         await meuModal.AbrirDialogo();    
         
     }
 
+    public async Task AlterarTarefa(int id)
+    {
+        var tarefa = await servicoToDo.ObterTarefa(id);
+        if(tarefa is not null) {
+            Titulo = "Alterar Tarefa";
+            Tarefa = tarefa;
+            Editando = true;
+            await meuModal.AbrirDialogo();
+        }
+    }
+
     private async Task Confirmando(Tarefa tarefa)
     {
-        await servicoToDo.AdicionarTarefa(tarefa);
+        if(Editando) {
+            await servicoToDo.AlterarTarefa(tarefa);
+        } else {
+            await servicoToDo.AdicionarTarefa(tarefa);
+        }
         await ObterTarefas();
     }    
 

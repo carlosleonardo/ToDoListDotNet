@@ -7,7 +7,7 @@
             <DataAnnotationsValidator/>
             
             <label for="nome">Nome</label>
-            <InputText id="nome" class="form-control" @bind-Value="Tarefa.Nome"/>
+            <InputText id="nome" class="form-control" @bind-Value="Tarefa!.Nome"/>
             <ValidationMessage For="@( ()=> Tarefa.Nome)"/>
 
             <label for="descricao">Descrição</label>
@@ -36,14 +36,22 @@
 
     private Modal modalRef = default!;
 
+    [Parameter]
+    public bool Editando { get; set; }
+
     [Parameter] public EventCallback<Tarefa> AoConfirmar { get; set; }
 
-     private async Task Submit()
+    protected override void OnParametersSet()
+    {
+        // Necessário para definir que a tarefa será inicializada ao chamar o diálogo, a fim de evitar
+        // o erro em EditForm com relação a uma tarefa usada pela tag
+    }
+
+    private async Task Submit()
     {
         await AoConfirmar.InvokeAsync(Tarefa);
         await modalRef.HideAsync();
-        
-    }
+     }
 
     private async Task FecharDialogo()
     {
