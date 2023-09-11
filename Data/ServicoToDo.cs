@@ -20,6 +20,13 @@ public class ServicoToDo
         await toDoListContext.SaveChangesAsync();
     }
 
+    public async Task FinalizarTarefa(Tarefa tarefa)
+    {
+        tarefa.DataTermino = DateTime.Now;
+        tarefa.Finalizada = true;
+        await AlterarTarefa(tarefa);
+    }
+
     public async Task<Tarefa?> ObterTarefa(int id)
     {
         return await toDoListContext.Tarefas!.FindAsync(id);

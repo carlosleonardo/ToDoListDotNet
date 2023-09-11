@@ -32,7 +32,7 @@
     public string? Titulo { get; set; }
 
     [Parameter]
-    public Tarefa Tarefa { get; set; }
+    public Tarefa Tarefa { get; set; } = default!;
 
     private Modal modalRef = default!;
 
@@ -40,12 +40,6 @@
     public bool Editando { get; set; }
 
     [Parameter] public EventCallback<Tarefa> AoConfirmar { get; set; }
-
-    protected override void OnParametersSet()
-    {
-        // Necessário para definir que a tarefa será inicializada ao chamar o diálogo, a fim de evitar
-        // o erro em EditForm com relação a uma tarefa usada pela tag
-    }
 
     private async Task Submit()
     {

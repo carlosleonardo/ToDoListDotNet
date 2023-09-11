@@ -41,7 +41,7 @@
                         <td>
                             <button class="btn btn-close" disabled="@tarefa.Finalizada" @onclick="@( async () => await ExcluirTarefa(tarefa.Id))" ></button>
                             <button class="btn btn-primary" disabled="@tarefa.Finalizada" @onclick="@( async() => await AlterarTarefa(tarefa.Id))">Alterar</button>
-                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" >Finalizar</button>
+                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" @onclick="@( async () => await FinalizarTarefa(tarefa.Id))">Finalizar</button>
                         </td>
                     </tr>
 
@@ -64,7 +64,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        
+        Tarefa = new();
         await ObterTarefas();
     }
 
@@ -102,6 +102,17 @@
         }
         await ObterTarefas();
     }    
+
+    private async Task FinalizarTarefa(int id)
+    {
+        var tarefa = await servicoToDo.ObterTarefa(id);
+        if(tarefa is not null) {
+            if(await runtimeJS.InvokeAsync<bool>("confirm", "Tem certeza de que quer finalizar a tarefa?")) {
+                await servicoToDo.FinalizarTarefa(tarefa);
+                await ObterTarefas();
+            }
+        }
+    }
 
     private async Task ExcluirTarefa(int id)
     {
