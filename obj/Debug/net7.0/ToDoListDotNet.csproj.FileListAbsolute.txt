@@ -1770,3 +1770,5 @@ C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\obj\Debug\net7.0\ToDoLi
 C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\obj\Debug\net7.0\refint\ToDoListDotNet.dll
 C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\obj\Debug\net7.0\ToDoListDotNet.pdb
 C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\obj\Debug\net7.0\ref\ToDoListDotNet.dll
+C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\obj\Debug\net7.0\scopedcss\Pages\Tarefas.razor.rz.scp.css
+C:\Users\carlo\OneDrive\Documentos\dotnet\ToDoListDotNet\obj\Debug\net7.0\scopedcss\projectbundle\ToDoListDotNet.bundle.scp.css

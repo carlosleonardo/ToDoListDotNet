@@ -15,6 +15,8 @@ x64/
 [Bb]in/
 [Oo]bj/
 **/[Cc]ompiled
+**/bin/
+**/obj/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
