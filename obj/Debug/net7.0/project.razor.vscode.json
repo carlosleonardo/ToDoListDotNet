@@ -9,45 +9,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1798623824,
-        "Kind": "Components.Component",
-        "Name": "ToDoListDotNet.App",
-        "AssemblyName": "ToDoListDotNet",
-        "DisplayName": "ToDoListDotNet.App",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "ToDoListDotNet.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "ToDoListDotNet",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -314519571,
-        "Kind": "Components.Component",
-        "Name": "ToDoListDotNet.App",
-        "AssemblyName": "ToDoListDotNet",
-        "DisplayName": "ToDoListDotNet.App",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDoListDotNet.App"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "ToDoListDotNet.App",
-          "Common.TypeNameIdentifier": "App",
-          "Common.TypeNamespace": "ToDoListDotNet",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 1140212066,
         "Kind": "Components.Component",
         "Name": "ToDoListDotNet.MainLayout",
