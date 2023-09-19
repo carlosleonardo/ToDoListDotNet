@@ -9,44 +9,50 @@
 
 <div class="container-fluid p-3">
     <h1>Tarefas</h1>
-    <button class="btn btn-primary" @onclick="AbrirDialogo">Adicionar</button>
+    <button class="btn btn-primary" title="Abrir Diálogo" @onclick="AbrirDialogo">Adicionar</button>
 </div>
 
 
 <div class="container-fluid">
-    <div class="card p-3 table">
+    <div class="card p-3 table table-responsive">
         <table>
-            <tr>
-                <th>Id da tarefa</th>
-                <th>Nome</th>
-                <th>Descrição</th>
-                <th>Finalizada</th>
-                <th>Data início</th>
-                <th>Data Término</th>
-                <th>&nbsp;</th>
-            </tr>
-            
-            @if(tarefas is null || tarefas.Count()==0) {
-                <tr><td>Sem Tarefas</td></tr>
-            } else {
-                foreach(var tarefa in tarefas)
-                {
-                    <tr>
-                        <td >@tarefa.Id</td>
-                        <td class='@( tarefa.Finalizada ? "cortado" : "")'>@tarefa.Nome </td>
-                        <td class='@( tarefa.Finalizada ? "cortado" : "")'>@tarefa.Descricao </td>
-                        <td >@(tarefa.Finalizada ? "Sim": "Não") </td>
-                        <td>@tarefa.DataInicio </td>
-                        <td>@tarefa.DataTermino</td>
-                        <td>
-                            <button class="btn btn-close" disabled="@tarefa.Finalizada" @onclick="@( async () => await ExcluirTarefa(tarefa.Id))" ></button>
-                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" @onclick="@( async() => await AlterarTarefa(tarefa.Id))">Alterar</button>
-                            <button class="btn btn-primary" disabled="@tarefa.Finalizada" @onclick="@( async () => await FinalizarTarefa(tarefa.Id))">Finalizar</button>
-                        </td>
-                    </tr>
+            <thead>
+                <tr>
+                    <th>Id da tarefa</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Finalizada</th>
+                    <th>Data início</th>
+                    <th>Data Término</th>
+                    <th>&nbsp;</th>
+                </tr>
 
+            </thead>
+            
+            <tbody>
+
+                @if(tarefas is null || tarefas.Count()==0) {
+                    <tr><td>Sem Tarefas</td></tr>
+                } else {
+                    foreach(var tarefa in tarefas)
+                    {
+                        <tr>
+                            <td >@tarefa.Id</td>
+                            <td class='@( tarefa.Finalizada ? "cortado" : "")'>@tarefa.Nome </td>
+                            <td class='@( tarefa.Finalizada ? "cortado" : "")'>@tarefa.Descricao </td>
+                            <td >@(tarefa.Finalizada ? "Sim": "Não") </td>
+                            <td>@tarefa.DataInicio </td>
+                            <td>@tarefa.DataTermino</td>
+                            <td>
+                                <button class="btn btn-close" disabled="@tarefa.Finalizada" title="Fechar" @onclick="@( async () => await ExcluirTarefa(tarefa.Id))" ></button>
+                                <button class="btn btn-primary" disabled="@tarefa.Finalizada" title="Alterar" @onclick="@( async() => await AlterarTarefa(tarefa.Id))">Alterar</button>
+                                <button class="btn btn-primary" disabled="@tarefa.Finalizada" title="Finalizar" @onclick="@( async () => await FinalizarTarefa(tarefa.Id))">Finalizar</button>
+                            </td>
+                        </tr>
+
+                    }
                 }
-            }
+            </tbody>
         </table>
     </div>
 </div>
