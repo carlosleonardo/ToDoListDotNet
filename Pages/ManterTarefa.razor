@@ -16,7 +16,7 @@
 
             <label for="dataInicio">Data de início</label>
             <InputDate id="dataInicio" class="form-control" @bind-Value="Tarefa.DataInicio"/>
-            <ValidationMessage For="@( ()=> Tarefa.DataInicio) class="text-danger"/>
+            <ValidationMessage For="@( ()=> Tarefa.DataInicio)" class="text-danger"/>
         </EditForm>
 
     </BodyTemplate>
