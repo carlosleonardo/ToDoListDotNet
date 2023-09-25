@@ -8,15 +8,15 @@
             
             <label for="nome">Nome</label>
             <InputText id="nome" class="form-control" @bind-Value="Tarefa!.Nome"/>
-            <ValidationMessage For="@( ()=> Tarefa.Nome)"/>
+            <ValidationMessage For="@( ()=> Tarefa.Nome)" class="text-danger"/>
 
             <label for="descricao">Descrição</label>
             <InputTextArea id="descricao" class="form-control" @bind-Value="Tarefa.Descricao"/>
-            <ValidationMessage For="@( ()=> Tarefa.Descricao)"/>
+            <ValidationMessage For="@( ()=> Tarefa.Descricao)" class="text-danger"/>
 
             <label for="dataInicio">Data de início</label>
             <InputDate id="dataInicio" class="form-control" @bind-Value="Tarefa.DataInicio"/>
-            <ValidationMessage For="@( ()=> Tarefa.DataInicio)"/>
+            <ValidationMessage For="@( ()=> Tarefa.DataInicio) class="text-danger""/>
         </EditForm>
 
     </BodyTemplate>
