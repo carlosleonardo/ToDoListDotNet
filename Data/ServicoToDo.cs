@@ -40,6 +40,6 @@ public class ServicoToDo
 
     public async Task<IList<Tarefa>> ObterTarefas()
     {
-        return await toDoListContext.Tarefas!.ToListAsync<Tarefa>();
+        return await toDoListContext.Tarefas!.AsNoTracking<Tarefa>().ToListAsync<Tarefa>();
     }
 }

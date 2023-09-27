@@ -897,12 +897,8 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/BlazorBootstrap.dll
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/dotnet.7.0.11.bcy5tjbscf.js
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/dotnet.timezones.blat
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/dotnet.wasm
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/e_sqlite3.a
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/icudt_CJK.dat
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/icudt_EFIGS.dat
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/icudt_no_CJK.dat
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll
@@ -1110,7 +1106,6 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.ObjectModel.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Net.WebHeaderCollection.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XPath.XDocument.dll.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/icudt_EFIGS.dat.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.IO.MemoryMappedFiles.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Data.Sqlite.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Xml.Serialization.dll.gz
@@ -1203,7 +1198,6 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Threading.Timer.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.IO.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.IO.Pipelines.dll.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/icudt_no_CJK.dat.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Xml.ReaderWriter.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Windows.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.Tools.dll.gz
@@ -1261,7 +1255,6 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.Process.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Security.Cryptography.X509Certificates.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Net.Security.dll.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/icudt_CJK.dat.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Serialization.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.dll.gz
@@ -1306,7 +1299,6 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Runtime.Extensions.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.IO.IsolatedStorage.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Configuration.dll.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/dotnet.timezones.blat.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Threading.Tasks.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Diagnostics.Debug.dll.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/wwwroot/_framework/System.Private.Uri.dll.gz
@@ -1528,10 +1520,6 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/mscorlib.dll
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/netstandard.dll
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/System.Private.CoreLib.dll
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/dotnet.timezones.blat
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/icudt_CJK.dat
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/icudt_EFIGS.dat
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/bin/Debug/net7.0/icudt_no_CJK.dat
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/wasm/for-build/runtime-icall-table.h
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/wasm/for-build/pinvoke-table.h
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/wasm/for-build/icall-table.h
@@ -1556,18 +1544,12 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/scopedcss/bundle/ToDoListDotNet.styles.css
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/scopedcss/projectbundle/ToDoListDotNet.bundle.scp.css
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/t7ahm8y76r.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/j158yib7jf.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/eirct5znvz.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/tx4ivfu1kc.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/sz8q6tczwr.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/hsnozxsq0f.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/mdjadjg27z.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/v0uuzgue9q.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/1c5tnmr4i8.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/fhgcggslvq.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/3mk22a8w7o.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/ie8oycjz4v.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/f6tr0re3wn.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/nj36b6fg6o.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/k8uod3bdaj.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/367te8za6x.gz
@@ -1760,10 +1742,6 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/jv8nh5v161.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/7gabjo5q7i.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/5o1tnxsj6i.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/xl32e9bnwn.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/rg9u2jzq14.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/0ls9dnpalh.gz
-/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/g9r1e4g8z6.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/e4xfg6g5fz.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/bcy5tjbscf.gz
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/dfcvtisa08.gz
@@ -1774,3 +1752,9 @@ C:/Users/carlo/OneDrive/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/To
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/refint/ToDoListDotNet.dll
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ToDoListDotNet.pdb
 /home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/ref/ToDoListDotNet.dll
+/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/xcvbeci9nx.gz
+/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/pq08gm49ba.gz
+/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/34cnrt4atn.gz
+/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/s7mukk5ijt.gz
+/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/7rjlgdxe9l.gz
+/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/Debug/net7.0/compressed/0mg5lg4bqv.gz

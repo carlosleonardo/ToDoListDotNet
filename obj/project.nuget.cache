@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1jPgRw9mvpKSKlyy3WP3n6Q+E0QEBgE1adxEs9F2JMnK6OfR3XqiOFllw0wUSLDI4uSkyqbMMoKLI5TyAwt5Vw==",
+  "dgSpecHash": "TU3O0jZsb30FxVx30/lwjenjaeC5RX7OqBDgRSoh3pBnAZWzWzF/l8zogjJ7QKzdgjskBpzg9Zh1W4OTnMPJDA==",
   "success": true,
   "projectFilePath": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/ToDoListDotNet.csproj",
   "expectedPackageFiles": [
-    "/home/s861321135/.nuget/packages/blazor.bootstrap/1.10.1/blazor.bootstrap.1.10.1.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/blazor.bootstrap/1.10.2/blazor.bootstrap.1.10.2.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.aspnetcore.authorization/7.0.10/microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.aspnetcore.components/7.0.10/microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.10/microsoft.aspnetcore.components.analyzers.7.0.10.nupkg.sha512",
@@ -13,13 +13,13 @@
     "/home/s861321135/.nuget/packages/microsoft.aspnetcore.components.webassembly/7.0.10/microsoft.aspnetcore.components.webassembly.7.0.10.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/7.0.10/microsoft.aspnetcore.components.webassembly.devserver.7.0.10.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.aspnetcore.metadata/7.0.10/microsoft.aspnetcore.metadata.7.0.10.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.data.sqlite.core/7.0.10/microsoft.data.sqlite.core.7.0.10.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.10/microsoft.entityframeworkcore.relational.7.0.10.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.10/microsoft.entityframeworkcore.sqlite.7.0.10.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.10/microsoft.entityframeworkcore.sqlite.core.7.0.10.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.data.sqlite.core/7.0.11/microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore/7.0.11/microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.11/microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.11/microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.11/microsoft.entityframeworkcore.relational.7.0.11.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.11/microsoft.entityframeworkcore.sqlite.7.0.11.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.11/microsoft.entityframeworkcore.sqlite.core.7.0.11.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/home/s861321135/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -50,8 +50,8 @@
     "/home/s861321135/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/home/s861321135/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/s861321135/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.netcore.app.ref/7.0.11/microsoft.netcore.app.ref.7.0.11.nupkg.sha512",
-    "/home/s861321135/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+    "/home/s861321135/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512",
+    "/home/s861321135/.nuget/packages/microsoft.netcore.app.ref/7.0.11/microsoft.netcore.app.ref.7.0.11.nupkg.sha512"
   ],
   "logs": []
 }
