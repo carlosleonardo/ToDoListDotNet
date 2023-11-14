@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/s861321135/Documentos/dotnet/ToDoListDotNet/ToDoListDotNet.csproj": {}
+    "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\ToDoListDotNet.csproj": {}
   },
   "projects": {
-    "/home/s861321135/Documentos/dotnet/ToDoListDotNet/ToDoListDotNet.csproj": {
+    "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\ToDoListDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/ToDoListDotNet.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\ToDoListDotNet.csproj",
         "projectName": "ToDoListDotNet",
-        "projectPath": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/ToDoListDotNet.csproj",
-        "packagesPath": "/home/s861321135/.nuget/packages/",
-        "outputPath": "/home/s861321135/Documentos/dotnet/ToDoListDotNet/obj/",
+        "projectPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\ToDoListDotNet.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\dotnet\\ToDoListDotNet\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/s861321135/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\carlo\\OneDrive\\Documentos\\NuGetPackages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,26 +51,26 @@
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[8.0.0-rc.2.23480.2, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "target": "Package",
-              "version": "[8.0.0-rc.2.23480.2, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[8.0.0-rc.2.23480.1, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0-rc.2.23479.6, )",
+              "version": "[8.0.0, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0-rc.2.23479.6, )",
+              "version": "[8.0.0, )",
               "autoReferenced": true
             }
           },
@@ -83,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/s861321135/.dotnet/sdk/8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
