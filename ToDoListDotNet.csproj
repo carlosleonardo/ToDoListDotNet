@@ -13,5 +13,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.0" />
+    <!-- <BlazorWebAssemblyLazyLoad Include="Microsoft.EntityFrameworkCore.wasm" /> -->
   </ItemGroup>
 </Project>

@@ -1,4 +1,8 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@using System.Reflection
+@using Microsoft.AspNetCore.Components.WebAssembly.Services
+@inject LazyAssemblyLoader LazyAssemblyLoader
+
+<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
@@ -10,3 +14,22 @@
         </LayoutView>
     </NotFound>
 </Router>
+
+@code {
+    private List<Assembly> listaAssemblies = new();
+
+    private async Task OnNavigateAsync(NavigationContext args)
+    {
+        try {
+            if(args.Path=="tarefas")
+            {
+                var assemblies = await LazyAssemblyLoader.LoadAssembliesAsync(new[] { "Microsoft.EntityFrameworkCore" });
+                listaAssemblies.AddRange(assemblies);
+            }
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }   
+}
